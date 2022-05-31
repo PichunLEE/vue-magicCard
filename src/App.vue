@@ -1,32 +1,25 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
+    <HeaderView/>
     <router-view/>
+    <FooterView/>
   </div>
-</template>
+</template> 
+
+<script>
+// @ is an alias to /src
+import HeaderView from '@/components/HeaderView.vue'
+import FooterView from '@/components/FooterView.vue'
+export default {
+  name: 'App',
+  components: {
+    HeaderView,
+    FooterView,
+  }
+}
+</script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
+@import url("./assets/css/main.css");
+/*@import url("./assets/css/card-list.css");*/
 </style>
