@@ -1,0 +1,16 @@
+
+vue create project name
+****************************************************************************************************
+Vue CLI v5.0.4
+? Please pick a preset: Manually select features
+? Check the features needed for your project: Babel, Router, Linter
+? Choose a version of Vue.js that you want to start the project with 2.x
+? Use history mode for router? (Requires proper server setup for index fallback in production) Yes
+? Pick a linter / formatter config: Basic
+? Pick additional lint features: Lint on save
+? Where do you prefer placing config for Babel, ESLint, etc.? In dedicated config files
+? Save this as a preset for future projects? (y/N) y
+****************************************************************************************************
+npm i bootstrap@5.0.1
+npm i axios
+****************************************************************************************************

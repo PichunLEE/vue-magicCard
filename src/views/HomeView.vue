@@ -13,28 +13,28 @@
 							</div>
 							<div class="col-4 col-12-medium">
 								<section>
-									<a href="#" class="image featured" @click="pickACard(cards[18].id)"><img :src="cards[18].imageUrl" alt="" /></a>
+									<a href="#" class="image featured" @click="pickACard(cards[29].id)"><img :src="cards[29].imageUrl" alt="" /></a>
 									<header class="second icon solid fa-dragon">
-										<h3>{{cards[18].name}}</h3>
-										<p>{{cards[18].type}}</p>
+										<h3>{{cards[29].name}}</h3>
+										<p>{{cards[29].type}}</p>
 									</header>
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
 								<section>
-									<a href="#" class="image featured" @click="pickACard(cards[27].id)"><img :src="cards[27].imageUrl" alt="" /></a>
+									<a href="#" class="image featured" @click="pickACard(cards[68].id)"><img :src="cards[68].imageUrl" alt="" /></a>
 									<header class="second icon solid fa-dragon">
-											<h3>{{cards[27].name}}</h3>
-										<p>{{cards[27].type}}</p>
+											<h3>{{cards[68].name}}</h3>
+										<p>{{cards[68].type}}</p>
 									</header>
 								</section>
 							</div>
 							<div class="col-4 col-12-medium">
 								<section>
-									<a href="#" class="image featured" @click="pickACard(cards[42].id)"><img :src="cards[42].imageUrl" alt="" /></a>
+									<a href="#" class="image featured" @click="pickACard(cards[6].id)"><img :src="cards[6].imageUrl" alt="" /></a>
 									<header class="second icon solid fa-dragon">
-										<h3>{{cards[42].name}}</h3>
-										<p>{{cards[42].type}}</p>
+										<h3>{{cards[6].name}}</h3>
+										<p>{{cards[6].type}}</p>
 									</header>
 								</section>
 							</div>

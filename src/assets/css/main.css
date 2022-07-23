@@ -2261,14 +2261,16 @@ input, select, textarea {
 		/* Header */
 
 			#header, #nav {
-				display: none;
+				/* display: none; */
 			}
 
 		/* Wrappers */
 
 			#header-wrapper {
-				display: none;
+				display: block; 
 			}
+
+
 
 			.homepage #header-wrapper {
 				display: block;

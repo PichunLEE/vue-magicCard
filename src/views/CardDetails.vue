@@ -77,31 +77,10 @@ export default {
 			let a = "🔥";
 			return a.repeat(nb)
 		},
-		/*
-		hasCoverUrl(card) {
-			if (card?.coverUrl) {
-				return card.coverUrl
-			} else {
-				return 'https://via.placeholder.com/100'
-			}
-		}
-		*/
-	},     
-        
+	},    
 }
 </script>
 
 <style >
 </style>
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
